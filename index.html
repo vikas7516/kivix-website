@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kivix - Copy anywhere, paste everywhere</title>
+    <meta name="description"
+        content="Kivix syncs your clipboard across Windows, Linux, and Android — instantly, offline or online.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/icon.png">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/icon.png" alt="Kivix" class="logo-icon">
+                KIVIX
+            </a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#use-cases">Use Cases</a>
+                <a href="#faq">FAQ</a>
+                <a href="invite.html" class="nav-cta">Join Beta</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-orb"></div>
+        <div class="container hero-content">
+            <div class="hero-text fade-in">
+                <h1>Copy anywhere <br><span class="text-gradient">paste everywhere.</span></h1>
+                <p class="tagline">
+                    Instant clipboard sync between Windows, Linux, and Android — even offline.<br>
+                    Kivix links all your devices into one universal workspace, so you never break your workflow again.
+                </p>
+                <div class="cta-group">
+                    <a href="invite.html" class="btn btn-primary">Join Closed Beta</a>
+                    <a href="#how-it-works" class="btn btn-outline">See How It Works</a>
+                </div>
+            </div>
+
+            <div class="hero-visual fade-in delay-1">
+                <div class="hero-center-logo">
+                    <img src="assets/icon.png" alt="Kivix">
+                </div>
+                <div class="orbit-container">
+                    <div class="floating-tag tag-1">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#00f0ff" stroke-width="2">
+                            <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                        </svg>
+                        Copied on Android
+                    </div>
+                    <div class="floating-tag tag-2">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#d4b8ff" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                        Pasted on Windows
+                    </div>
+                    <div class="floating-tag tag-3">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#a67fff" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        Joined Room
+                    </div>
+                    <div class="floating-tag tag-4">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#00c8ff" stroke-width="2">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                        </svg>
+                        Instant Sync
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title fade-in">Why Kivix?</h2>
+            <p class="section-subtitle fade-in">Seamless integration for your multi-device workflow.</p>
+
+            <div class="features-grid">
+                <div class="feature-card fade-in delay-1">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Universal Clipboard</h3>
+                    <p>Copy text on one device and paste it instantly on any other — across platforms, networks, and
+                        operating systems.</p>
+                </div>
+
+                <div class="feature-card fade-in delay-2">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>Cross-Platform by Design</h3>
+                    <p>Windows ↔ Linux ↔ Android. No limitations. No ecosystems. No brand lock-in. Seamless integration
+                        everywhere.</p>
+                </div>
+
+                <div class="feature-card fade-in delay-3">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                            <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                            <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                            <line x1="12" y1="20" x2="12.01" y2="20"></line>
+                        </svg>
+                    </div>
+                    <h3>Offline LAN Mode</h3>
+                    <p>Even without internet, your devices sync through high-speed local connections. Perfect for secure
+                        labs, classrooms, and offices.</p>
+                </div>
+
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>Multi-Device Rooms</h3>
+                    <p>Connect 2, 3, or 10 devices together. Every device shares the same real-time clipboard stream.
+                        Effortless collaboration.</p>
+                </div>
+
+                <div class="feature-card fade-in delay-1">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="1 4 1 10 7 10"></polyline>
+                            <polyline points="23 20 23 14 17 14"></polyline>
+                            <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path>
+                        </svg>
+                    </div>
+                    <h3>Clipboard History</h3>
+                    <p>Never lose something you copied again. See and paste from your recent items across all devices.
+                        Always accessible.</p>
+                </div>
+
+                <div class="feature-card fade-in delay-2">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                        </svg>
+                    </div>
+                    <h3>Zero Setup</h3>
+                    <p>Install. Open. Sync. No QR codes. No pairing. No linking accounts. No bullshit. Just pure
+                        simplicity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title fade-in">How It Works</h2>
+            <p class="section-subtitle fade-in">Get started in less than a minute.</p>
+
+            <div class="steps-timeline">
+                <div class="step-item fade-in">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Install Kivix</h3>
+                        <p>Install Kivix on all your devices — Windows PCs, Linux laptops, Android phones.</p>
+                    </div>
+                </div>
+
+                <div class="step-item fade-in delay-1">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Connect Devices</h3>
+                        <p>Create a room or join one using a 6-digit code. Devices find each other automatically on the
+                            same network.</p>
+                    </div>
+                </div>
+
+                <div class="step-item fade-in delay-2">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Start Syncing</h3>
+                        <p>Copy anything: text, links, code snippets, logs. Paste instantly on any other device. No lag,
+                            no delay.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Kivix Exists -->
+    <section class="why-kivix">
+        <div class="container">
+            <h2 class="section-title fade-in">Why Kivix Exists</h2>
+            <div class="why-content fade-in delay-1">
+                <p><span class="highlight">People switch between devices all day.</span></p>
+                <p>Students move notes between phone and laptop. Developers copy logs from WhatsApp. Office teams share
+                    snippets across PCs. Content creators move captions between screens.</p>
+                <p><span class="highlight">Everyone uses hacks</span> — self-messages, screenshots, email drafts,
+                    Telegram saved messages.</p>
+                <p class="text-gradient kivix-highlight">Kivix replaces
+                    all of it with one elegant, instant, universal clipboard.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section id="use-cases" class="use-cases">
+        <div class="container">
+            <h2 class="section-title fade-in">Built for Everyone</h2>
+            <p class="section-subtitle fade-in">From students to developers, Kivix adapts to your workflow.</p>
+
+            <div class="use-cases-grid">
+                <div class="use-case-card fade-in">
+                    <h3>For Students</h3>
+                    <p>Copy notes from WhatsApp → paste into your laptop instantly. Move answers, images, or links
+                        during assignments with zero friction.</p>
+                </div>
+
+                <div class="use-case-card fade-in delay-1">
+                    <h3>For Developers</h3>
+                    <p>Copy long error logs from your IDE on PC → paste in your phone or vice versa. Send code snippets
+                        instantly between devices.</p>
+                </div>
+
+                <div class="use-case-card fade-in delay-2">
+                    <h3>For Office Teams</h3>
+                    <p>Faster workflows for managers, analysts, marketers, and support teams. Share data seamlessly
+                        across workstations.</p>
+                </div>
+
+                <div class="use-case-card fade-in delay-3">
+                    <h3>For Content Creators</h3>
+                    <p>Copy hashtags, captions, templates, and paste anywhere. Move content between editing stations
+                        effortlessly.</p>
+                </div>
+
+                <div class="use-case-card fade-in">
+                    <h3>For Writers</h3>
+                    <p>Copy research from phone → paste in your laptop without breaking flow. Keep your creative
+                        momentum going.</p>
+                </div>
+
+                <div class="use-case-card fade-in delay-1">
+                    <h3>For Classrooms & Labs</h3>
+                    <p>Sync between multiple student systems using multi-device rooms. Perfect for collaborative
+                        learning environments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security & Privacy -->
+    <section class="security">
+        <div class="container">
+            <h2 class="section-title fade-in">Security & Privacy</h2>
+            <p class="section-subtitle fade-in">Your data stays yours. Always.</p>
+
+            <div class="security-grid">
+                <div class="security-item fade-in">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                    <span>All transfers are encrypted</span>
+                </div>
+
+                <div class="security-item fade-in delay-1">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                        <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                    </svg>
+                    <span>LAN mode is fully peer-to-peer</span>
+                </div>
+
+                <div class="security-item fade-in delay-2">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M12 1v6m0 6v6"></path>
+                        <path d="m4.93 4.93 4.24 4.24m5.66 5.66 4.24 4.24"></path>
+                        <path d="m1 12h6m6 0h6"></path>
+                        <path d="m4.93 19.07 4.24-4.24m5.66-5.66 4.24-4.24"></path>
+                    </svg>
+                    <span>No cloud storage (unless enabled)</span>
+                </div>
+
+                <div class="security-item fade-in delay-3">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="8.5" cy="7" r="4"></circle>
+                        <polyline points="17 11 19 13 23 9"></polyline>
+                    </svg>
+                    <span>No accounts required</span>
+                </div>
+
+                <div class="security-item fade-in">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <line x1="1" y1="1" x2="23" y2="23"></line>
+                    </svg>
+                    <span>No analytics in closed beta</span>
+                </div>
+
+                <div class="security-item fade-in delay-1">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                    <span>Your clipboard stays on your devices</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title fade-in">Frequently Asked Questions</h2>
+            <p class="section-subtitle fade-in">Everything you need to know about Kivix.</p>
+
+            <div class="faq-container">
+                <div class="faq-item fade-in">
+                    <h3>Does it work without internet?</h3>
+                    <p>Yes. LAN mode works offline inside labs, homes, classrooms, and offices. Your devices sync
+                        directly over local network.</p>
+                </div>
+
+                <div class="faq-item fade-in delay-1">
+                    <h3>Does it support images?</h3>
+                    <p>Closed beta supports text only. Image sync is coming soon in future updates.</p>
+                </div>
+
+                <div class="faq-item fade-in delay-2">
+                    <h3>Is Android required?</h3>
+                    <p>No. Windows ↔ Windows and Linux ↔ Windows also work perfectly. Mix and match any platforms you
+                        need.</p>
+                </div>
+
+                <div class="faq-item fade-in delay-3">
+                    <h3>Will it replace Phone Link?</h3>
+                    <p>Kivix works across ALL platforms, not just Windows + Android. It's truly universal and
+                        cross-platform.</p>
+                </div>
+
+                <div class="faq-item fade-in">
+                    <h3>Is it free?</h3>
+                    <p>Closed beta is 100% free for all testers. Future pricing will be announced after beta completion.
+                    </p>
+                </div>
+
+                <div class="faq-item fade-in delay-1">
+                    <h3>Can I use it in college labs?</h3>
+                    <p>Yes! LAN mode works perfectly in local networks. Ideal for educational institutions and
+                        collaborative environments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beta Access -->
+    <section class="beta-access">
+        <div class="container">
+            <h2 class="section-title fade-in">Closed Beta Access</h2>
+            <div class="beta-content fade-in delay-1">
+                <p>Kivix is currently in Closed Beta.</p>
+                <p>A limited group of testers gets early access to test performance, stability, and multi-device
+                    syncing.</p>
+                <p><span class="highlight">If you received an invite code, you're part of the early access group.</span>
+                </p>
+                <div class="beta-access-margin">
+                    <a href="invite.html" class="btn btn-primary">Enter Your Invite Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section class="roadmap">
+        <div class="container">
+            <h2 class="section-title fade-in">What's Coming Next</h2>
+            <p class="section-subtitle fade-in">The future of Kivix is packed with powerful features.</p>
+
+            <div class="roadmap-grid">
+                <div class="roadmap-item fade-in">Global cloud sync</div>
+                <div class="roadmap-item fade-in delay-1">Multi-device streaming</div>
+                <div class="roadmap-item fade-in delay-2">Collaboration mode</div>
+                <div class="roadmap-item fade-in delay-3">Pinned items</div>
+                <div class="roadmap-item fade-in">Android background sync</div>
+                <div class="roadmap-item fade-in delay-1">Image sync</div>
+                <div class="roadmap-item fade-in delay-2">File snippet sync</div>
+                <div class="roadmap-item fade-in delay-3">Public API</div>
+                <div class="roadmap-item fade-in">Windows tray notepad</div>
+                <div class="roadmap-item fade-in delay-1">Linux autostart support</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download CTA -->
+    <section class="download-cta">
+        <div class="container">
+            <h2 class="section-title fade-in">Ready to Get Started?</h2>
+            <p class="section-subtitle fade-in">Join the closed beta and experience seamless clipboard sync.</p>
+
+            <div class="download-buttons fade-in delay-1">
+                <a href="invite.html" class="btn btn-primary btn-large">Join Closed Beta →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo-margin">
+                <img src="assets/icon.png" alt="Kivix logo" class="footer-logo">
+            </div>
+            <p>Kivix © 2025. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

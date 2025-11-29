@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Kivix Beta - Enter Invite Code</title>
+    <meta name="description" content="Enter your invite code to access Kivix beta downloads.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/icon.png">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/icon.png" alt="Kivix" class="logo-icon">
+                KIVIX
+            </a>
+            <div class="nav-links">
+                <a href="index.html#features">Features</a>
+                <a href="index.html#how-it-works">How It Works</a>
+                <a href="index.html#use-cases">Use Cases</a>
+                <a href="index.html#faq">FAQ</a>
+                <a href="invite.html" class="nav-cta">Join Beta</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="centered-page">
+        <div class="auth-card fade-in">
+            <div style="margin-bottom: 1.5rem;">
+                <img src="assets/icon.png" alt="Kivix"
+                    style="width: 64px; height: 64px; filter: drop-shadow(0 0 12px rgba(122, 92, 255, 0.7));">
+            </div>
+            <h2 class="section-title" style="font-size: 2.2rem; margin-bottom: 0.5rem;">Private Beta Access</h2>
+            <p style="color: var(--muted); margin-bottom: 20px; font-size: 1.05rem;">Enter your invite code to unlock
+                downloads.</p>
+
+            <form id="invite-form">
+                <div class="input-group">
+                    <input type="text" id="invite-code" class="input-field" placeholder="ENTER CODE" autocomplete="off"
+                        required>
+                    <div id="error-message" class="error-msg"></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem;">Unlock Access
+                    →</button>
+            </form>
+
+            <p style="margin-top: 28px; font-size: 0.95rem; color: var(--muted);">
+                Don't have a code? <a href="index.html#beta-access"
+                    style="color: var(--primary); font-weight: 600;">Learn more</a>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Kivix © 2025. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
